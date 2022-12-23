@@ -10,12 +10,16 @@ body{
     color: var(--text-color);
     background-color: var(--secondary-color);
     letter-spacing: 0.02em;
+    width: 1440px;
+    height: 2593px;
+}
+
+ul{
+    list-style: none;
 }
 
 /* Header */
 .logo{
-    width: 44px;
-    height: 24px;
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -32,6 +36,11 @@ body{
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
+    list-style: none;
+}
+
+.nav a:hover, .nav a:focus{
+    color: var(--accent-color);
 }
 
 .adress a{
@@ -78,16 +87,12 @@ body{
 }
 
 
-ul{
-    list-style: none;
-}
-
 .advantages h2{
     opacity: 0;
 }
 
-.advantages>h3{
-    color: var(--primery-color);
+.advantages h3{
+    color: var(--title-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -99,18 +104,12 @@ ul{
     line-height: 1.5;
 }
 
-h2{
+.advantages h2, .activity h2{
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-}
-.activity h2{
-    color: var(--title-color);
-}
-
-.team h2{
     color: var(--title-color);
 }
 
